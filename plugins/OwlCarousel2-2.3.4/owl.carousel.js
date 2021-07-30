@@ -2632,7 +2632,7 @@
 		/**
 		 * Depending on the state of the plugin, this variable contains either
 		 * the start time of the timer or the current timer value if it's
-		 * paused. Since we start in a paused state we initialize the timer
+		 * paused.  we start in a paused state we initialize the timer
 		 * value.
 		 * @type {Number}
 		 */
@@ -2764,7 +2764,7 @@
 
 		timeout = timeout || this._core.settings.autoplayTimeout;
 
-		// Calculate the elapsed time since the last transition. If the carousel
+		// Calculate the elapsed time  the last transition. If the carousel
 		// wasn't playing this calculation will yield zero.
 		elapsed = Math.min(this._time % (this._timeout || timeout), timeout);
 
