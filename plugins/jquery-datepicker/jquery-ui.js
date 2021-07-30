@@ -1375,8 +1375,8 @@ $.extend( Datepicker.prototype, {
 	 * MM - month name long
 	 * y  - year (two digit)
 	 * yy - year (four digit)
-	 * @ - Unix timestamp (ms  01/01/1970)
-	 * ! - Windows ticks (100ns  01/01/0001)
+	 * @ - Unix timestamp (ms since 01/01/1970)
+	 * ! - Windows ticks (100ns since 01/01/0001)
 	 * "..." - literal text
 	 * '' - single quote
 	 *
