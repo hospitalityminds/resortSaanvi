@@ -8,7 +8,7 @@
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
 }
 body {
-  font-family: "Raleway", sans-serif;
+   font-family: 'Niconne', cursive;
   font-size: 14px;
   font-weight: 400;
   background: #fff;
@@ -26,11 +26,12 @@ ul {
   margin-bottom: 0;
 }
 p {
-  font-family: "Raleway", sans-serif;
+   font-family: 'Niconne', cursive;
   font-size: 15px;
   line-height: 2;
   font-weight: 500;
   color: #6d6d6d;
+  text-align: justify;
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
@@ -104,7 +105,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+   font-family: 'Niconne', cursive;
   -webkit-font-smoothing: antialiased;
   -webkit-text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
   text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
@@ -1192,4 +1193,34 @@ input[type="number"]::-webkit-outer-spin-button {
   .split_section_image {
     height: 450px;
   }
+}
+
+/* Standout Section */
+.standOut_border{
+  width: 53px;
+  background-color: #ffa37b;
+  height: 1px;
+  display: inline-block;
+}
+
+span.standOut_sub_headings {
+  width: 100%;
+  float: left;
+  font-size: 25px;
+  color: #ffa37b;
+  font-family: 'Niconne', cursive;
+}
+
+
+.standOut_headings {
+    width: 100%;
+    float: left;
+    text-align: center;
+    z-index: 10;
+    margin-top: 20px;
+    position: relative;
+}
+
+.zoom{
+  animation: zoom 1 0.5s alternate;
 }
