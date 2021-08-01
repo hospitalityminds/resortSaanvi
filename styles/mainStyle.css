@@ -267,10 +267,9 @@ section {
   height: 90px;
 }
 .logo {
-  width: 120px;
-  height: 100%;
-  border-radius: 50%;
- padding: 17px;
+  width: 130px;
+  /* height: 36px; */
+  padding: 30px;
 }
 .logo a {
   display: block;
