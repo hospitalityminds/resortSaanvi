@@ -971,8 +971,9 @@ input[type="number"]::-webkit-outer-spin-button {
     height: 70px;
   }
   .logo {
-    width: 107px;
-    height: 36px;
+    width: 130px;
+    /* height: 36px; */
+    padding: 30px;
   }
   .logo a {
     font-size: 18px;
