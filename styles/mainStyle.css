@@ -1273,3 +1273,23 @@ span.standOut_sub_headings {
     margin-top: 20px;
     position: relative;
 }
+
+/* GALLERY SECTION */
+
+.gallery_container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content:  space-evenly;
+  margin: 100px;
+  border-radius: 20px;
+}
+
+.gallery_container img{
+  width: 300px;
+  border-radius: 10px;
+}
+
+.item {
+  margin: 5px;
+}
